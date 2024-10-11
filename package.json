@@ -1,0 +1,29 @@
+{
+  "name": "tevm-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "dev": "npx vite ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tevm/test-utils": "1.0.0-next.109",
+    "@tevm/ts-plugin": "1.0.0-next.109",
+    "ethers": "^6.13.2",
+    "tevm": "1.0.0-next.110",
+    "viem": "^2.21.1",
+    "wagmi": "^2.12.8"
+  },
+  "devDependencies": {
+    "@openzeppelin/contracts": "^5.0.2",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.2",
+    "vite-plugin-node-polyfills": "^0.22.0",
+    "vitest": "^2.0.5"
+  }
+}
