@@ -34,7 +34,7 @@ test("Call precompile from solidity script", async () => {
 			 * javascript import.
 			 */
 			...WriteHelloWorld.write.hello(
-				fsPrecompile.contract.address,
+				'0x5cfe08587E1fbDc2C0e8e50ba4B5f591F45B1849',
 				filePath,
 				message,
 			),
